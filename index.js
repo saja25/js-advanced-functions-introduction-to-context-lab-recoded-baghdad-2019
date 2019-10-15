@@ -54,4 +54,6 @@ function calculatePayroll(employeeRecords){
 function createEmployeeRecords(record){
    return record.map(input=>createEmployeeRecord(input))
 }
-function findEmployeebyFirstName()
+function findEmployeebyFirstName(employeeRecords,firstName){
+  
+}

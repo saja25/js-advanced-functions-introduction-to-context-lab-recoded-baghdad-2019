@@ -55,5 +55,5 @@ function createEmployeeRecords(record){
    return record.map(input=>createEmployeeRecord(input))
 }
 function findEmployeebyFirstName(employeeRecords,firstName){
-  
+  return employeeRecords.find(e=>e.firstName===firstName)
 }
